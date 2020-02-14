@@ -6,5 +6,13 @@ SELECT population
 FROM WORLD
 WHERE name = 'Germany';
 ```
-WHERE va seguido de un identificador.WHERE no es un elemento obligatorio en una instrucción SELECT
+WHERE especifica lo que debe cumplir cada registro para que pueda ser incluido0 en los resultados
+Consultas   
+Ejemplo de una consulta seleccionando mundo
+```SQL
+SELECT name
+FROM WORLD
+WHERE name IM ('France', 'Germany', 'Italy');
+```     
+
    
