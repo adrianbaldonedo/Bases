@@ -1,0 +1,10 @@
+SQL lenguaje de ordenador para trabajar con conjuntos de datos y las relaciones y es facil de leer y entender.
+SELECT contiene una descripción completa de un conjunto de datos que quiero obtener de una base de datos.
+Ejemplo de una consulta básica
+```SQL
+SELECT population
+FROM WORLD
+WHERE name = 'Germany';
+```
+WHERE va seguido de un identificador.WHERE no es un elemento obligatorio en una instrucción SELECT
+   
