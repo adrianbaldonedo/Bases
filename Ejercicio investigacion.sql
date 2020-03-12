@@ -68,3 +68,48 @@ ALTER TABLE Profesor
     REFERENCES Grupo(Nome_Grupo, Nome_Departamento)
     ON DELETE SET NULL
     ON UPDATE SET NULL;
+CREATE TABLE Paticia(
+     DNI     Tipo_DNI,
+    Codigo_proxecto Tipo_Codigo,
+    Data_Inicio DATE NOT NULL,
+    Data_Cese DATE,
+    Dedicacion INTEGER NOT NULL,
+    PRIMARY KEY 8DNI,Codigo_Proxecto),
+    CKECK(DATA_Inicio)
+)
+CREATE TABLE Proxecto(
+    Codigo_Proxecto Tipo_Codigo     PRIMARY KEY;
+    Nome_Proxecto   Nome_Valido     NOT NULL,
+    Orzamento       MONEY           NOT NULL,
+    Data_Inicio     DATE            NOT NULL,
+    Data_Fin        DATE,            
+    N_Gr            Nome_Valido,
+    N_Dep           Nome_Valido,
+    UNIQUE (Nome_Proxecto),
+    CHECK (Data_Inicio > Data_Fin)
+);
+ALTER TABLE Proxecto
+    ADD CONSTRAINT FK_Grupo_Proxecto
+    FOREIGN KEY(N_Gr,N_Dep)
+    REFERENCES Grupo(Nome_Grupo,Nome_Departamento)
+    ON DELETE SET NULL
+    ON UPDATE CASCADE;
+ALTER TABLE Proxecto
+    ADD CONSTRAINT Data_Inicio_Unica
+CREATE TABLE Financia(
+    Nome_Programa       Nome_Valido,
+    Codigo_Proxecto     Tipo_Codigo,
+    Numero_Programa     Tipo_Codigo NOT NULL,
+    Cantidade_Financiada MONEY    NOT NULL,
+    PRIMARY KEY (Nome_Programa,Codigo_Proxecto)
+    );
+ALTER TABLE Financia
+    ADD CONSTRAINT FK_Programa_Financia
+        FOREIGN KEY (Nome_Programa)
+        REFERENCES Programa
+        ON DELETE Cascade
+        ON UPDATE Cascade;
+CREATE ASSERTION O_Orzamento-Inclue_Todo_O_Financiado
+    CHECK (Proxecto.Orzamento >=
+            SUM(Financia.Cantidade_Financiada)
+    );
