@@ -1,13 +1,14 @@
-APUNTES LENGUAUE SQL DQL,DCL Y DML
 INDICE <a name="INDICE"></a>
+
 1.[Sublenguajes SQL](#subsql)
-2.[DQL](#dql)
+1.[DQL](#dql)
   -[Sintaxis](#sintaxis)
-3.[DCL](#dcl)
-4.[DML](#dml)
-5.[clase](#clase)
+1.[DCL](#dcl)
+1.[DML](#dml)
+1.[clase](#clase)
   -[investigacion](#investigacion.sql)
   -[nespaciales](#nespaciales.sql)
+  
 1. Tenemos 6 Sublenguajes que son los siguientes.
   1.1 DQL(DATA ALREY LANG)Opera sobre Datos;SELECT
   1.2 DML(DATE MANIPULATION LANG)Opera sobre Datos:Insert,UPDATE,DELETE
