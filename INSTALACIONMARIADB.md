@@ -5,7 +5,8 @@
   1. Primero abrimos la consola de comandos
   2. Primero actualizaremos la lista de paquetes con el comando sudo apt-get update
   ![captura1](https://github.com/adrianbaldonedo/adrian/blob/master/imagenes/captura1.jpg)
-  3. El siguiente paso es instalar MariaDB en el equipo a través de los siguientes comandos que veremos en las capturas de pantalla
+  3. El siguiente paso es instalar MariaDB en el equipo a través de los siguientes comandos 
+     que veremos en las capturas de pantalla
   ![captura2](https://github.com/adrianbaldonedo/adrian/blob/master/imagenes/captura2.jpg)
   ![captura3](https://github.com/adrianbaldonedo/adrian/blob/master/imagenes/captura3.jpg)
   ![captura4](https://github.com/adrianbaldonedo/adrian/blob/master/imagenes/captura1.jpg)
