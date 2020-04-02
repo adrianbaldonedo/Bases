@@ -1,4 +1,5 @@
- Indice de contenido <a name="INDICE"></a>
+ Indice <a name="INDICE"></a>
+
   1.[Instalación MariaDB Server en Ubuntu](#Instalacion)
   
   Proceso de instalación MariaDb Server en maquina virtual Ubuntu <a name="Inst"></a>
