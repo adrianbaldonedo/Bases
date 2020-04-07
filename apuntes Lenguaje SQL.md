@@ -1,13 +1,14 @@
-INDICE <a name="INDICE"></a>
+INDICE 
+<a name="INDICE"></a>
 
 1.[Sublenguajes SQL](#subsql)
-1.[DQL](#dql)
-  -[Sintaxis](#sintaxis)
-1.[DCL](#dcl)
-1.[DML](#dml)
-1.[clase](#clase)
-  -[investigacion](#investigacion.sql)
-  -[nespaciales](#nespaciales.sql)
+2.[DQL](#dql)
+  2.1[Sintaxis](#sintaxis)
+3..[DCL](#dcl)
+4..[DML](#dml)
+5.[clase](#clase)
+  5.1[investigacion](#investigacion.sql)
+  5.2[nespaciales](#nespaciales.sql)
   
 1. Tenemos 6 Sublenguajes que son los siguientes.
   1.1 DQL(DATA ALREY LANG)Opera sobre Datos;SELECT
@@ -71,4 +72,5 @@ INDICE <a name="INDICE"></a>
   https://gist.github.com/adrianbaldonedo/7881acc2c3a644ab221ab3013a8e3caa#file-investigacion-sql
   https://gist.github.com/adrianbaldonedo/7881acc2c3a644ab221ab3013a8e3caa#file-nespaciales-sql
   
-[VOLVER AL INDICE](#INDICE)
+[VOLVER AL INDICE]
+(#INDICE)
