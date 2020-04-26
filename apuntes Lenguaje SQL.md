@@ -2,12 +2,19 @@ INDICE
 <a name="INDICE"></a>
 
 1.[Sublenguajes SQL](#subsql)
+
 2.[DQL](#dql)
+
   2.1[Sintaxis](#sintaxis)
-3..[DCL](#dcl)
+  
+3.[DCL](#dcl)
+
 4..[DML](#dml)
+
 5.[clase](#clase)
+
   5.1[investigacion](#investigacion.sql)
+  
   5.2[nespaciales](#nespaciales.sql)
   
 1. Tenemos 6 Sublenguajes que son los siguientes.
@@ -71,6 +78,3 @@ INDICE
  7. Ejercicios realizados en clase
   https://gist.github.com/adrianbaldonedo/7881acc2c3a644ab221ab3013a8e3caa#file-investigacion-sql
   https://gist.github.com/adrianbaldonedo/7881acc2c3a644ab221ab3013a8e3caa#file-nespaciales-sql
-  
-[VOLVER AL INDICE]
-(#INDICE)
